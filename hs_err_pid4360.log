@@ -1,0 +1,39 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  EXCEPTION_ACCESS_VIOLATION (0xc0000005) at pc=0x00000037, pid=4360, tid=0x000013ec
+#
+# JRE version: Java(TM) SE Runtime Environment (8.0_92-b14) (build 1.8.0_92-b14)
+# Java VM: Java HotSpot(TM) Client VM (25.92-b14 mixed mode, sharing windows-x86 )
+# Problematic frame:
+# C  0x00000037
+#
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.java.com/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x15178800):  JavaThread "AWT-EventQueue-0" [_thread_in_Java, id=5100, stack(0x15b00000,0x15b50000)]
+
+siginfo: ExceptionCode=0xc0000005, ExceptionInformation=0x00000008 0x00000037
+
+Registers:
+EAX=0x00000012, EBX=0x00000015, ECX=0x00000080, EDX=0x00000001
+ESP=0x15b59ae7, EBP=0x15b4e50c, ESI=0x14033d27, EDI=0x15b4e530
+EIP=0x00000037, EFLAGS=0x00010206
+
+Top of Stack: (sp=0x15b59ae7)
+0x15b59ae7:   00000000 00000000 00000000 00000000
+0x15b59af7:   00000000 00000000 00000000 00000000
+0x15b59b07:   00000000 00000000 00000000 00000000
+0x15b59b17:   00000000 00000000 00000000 00000000
+0x15b59b27:   00000000 00000000 00000000 00000000
+0x15b59b37:   00000000 00000000 00000000 00000000
+0x15b59b47:   00000000 00000000 00000000 00000000
+0x15b59b57:   00000000 00000000 00000000 00000000 
+
+Instructions: (pc=0x00000037)
+0x00000017:   
